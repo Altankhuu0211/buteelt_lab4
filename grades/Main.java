@@ -9,7 +9,7 @@ public class Main {
 		try {
 		BufferedReader cin = new BufferedReader(new InputStreamReader(System.in));
 		System.out.println("Starting the grade manager");
-		
+		//
 		while (true) {
 				String input = cin.readLine();
 				if (input.startsWith("add")) {
